@@ -1,10 +1,10 @@
 package com.infoshareacademy;
 
 public enum Suit {
-    CLUBS ("Clubs"),
-    DIAMONDS ("Diamonds"),
-    HEARTS ("Hearts"),
-    SPADES ("Spades");
+    CLUBS("CLUBS"),
+    DIAMONDS("DIAMONDS"),
+    HEARTS("HEARTS"),
+    SPADES("SPADES");
 
     private String name;
 

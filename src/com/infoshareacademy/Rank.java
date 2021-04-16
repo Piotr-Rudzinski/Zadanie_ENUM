@@ -1,18 +1,18 @@
 package com.infoshareacademy;
 
 public enum Rank {
-    ACE ("Ace"),
-    KING ("King"),
-    QUEEN ("Queen"),
-    JACK ("Jack");
+    ACE("ACE"),
+    KING("KING"),
+    QUEEN("QUEEN"),
+    JACK("JACK");
 
-    private  String rank;
+    private String name;
 
-    Rank (String rank) {
-        this.rank = rank;
+    Rank (String name) {
+        this.name = name;
     }
 
     public String getName () {
-        return rank;
+        return name;
     }
 }
